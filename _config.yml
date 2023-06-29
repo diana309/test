@@ -1,0 +1,56 @@
+# site settings
+title: Innovation
+subtitle: OnBoard
+email: contact@innovationonboard.ca
+description: Fostering Entrepreneurship in UBC
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.innovationonboard.ca" # the base hostname & protocol for your site
+author:
+street_address: 2360 East Mall
+city: Vancouver
+state: BC
+zip_code: 2360 East Mall
+country: Canada
+phone: (778) 829-3780
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 7
+
+# social settings
+500px_url:
+facebook_url: https://www.facebook.com/InnovationOnBoard/
+github_url:
+gitlab_url:
+googleplus_url:
+instagram_url: https://www.instagram.com/innovation_onboard/
+linkedin_url: https://www.linkedin.com/company/18263369/
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/InnovationOB
+flickr_url: https://www.flickr.com/photos/155012628@N03/
+medium_url: https://medium.com/@innovationonboard
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+# plugins:
+plugins_dir:
+  - jekyll-redirect-from
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  members:
+    output: true
+    permalink: /members/:path/
+  mentors:
+    output: true
+    permalink: /mentors/:path/
+  sponsors:
+    output: true
+    permalink: /sponsors/:path/
